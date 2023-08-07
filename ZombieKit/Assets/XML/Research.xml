@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" ?>
+	<!-- TODO: replace this Asset with your own XML asset data. -->
+<Tasks>
+	<Task>
+		<ID>5.1</ID>
+		<Name>Constructor Toolsets</Name>
+		<Description>Some tools to create special machines.</Description>
+		<Type>Research Task</Type>
+		<Time>60</Time><!--the time (in minutes) needed to create the building-->
+		<XpAward>525</XpAward><!--experience awarded for the completion of an object-->
+		<GoldBased>true</GoldBased><!--which resource is needed to complete this kind of building-->
+		<ResCost>5000</ResCost><!--amount of resource necessary to create the building-->
+		<ObjPrereq>0</ObjPrereq><!--the object that the player has to create before he can create this object-->
+		<Cap1Prereq>0</Cap1Prereq>
+	</Task>
+	
+	<Task>
+		<ID>5.2</ID>
+		<Name>Tutoring Apprentices</Name>
+		<Description>This a magic academy isn't it? This is your main field of study!</Description>
+		<Type>Research Task</Type>
+		<Time>120</Time>
+		<XpAward>675</XpAward>
+		<GoldBased>true</GoldBased>
+		<ResCost>10000</ResCost>
+		<ObjPrereq>0</ObjPrereq>
+		<Cap1Prereq>5</Cap1Prereq>
+
+	</Task>
+		
+	<Task>
+		<ID>5.3</ID>
+		<Name>Basic Rites</Name>
+		<Description>Summoning creatures is a wonderful hobby and it starts here.</Description>
+		<Type>Research Task</Type>
+		<Time>240</Time>
+		<XpAward>750</XpAward>
+		<GoldBased>true</GoldBased>
+		<ResCost>20000</ResCost>
+		<ObjPrereq>0</ObjPrereq>
+		<Cap1Prereq>6</Cap1Prereq>
+
+	</Task>
+	
+	<Task>
+		<ID>5.4</ID>
+		<Name>Advanced Production</Name>
+		<Description>Discover new ways to gain more resourches with your buildings.</Description>
+		<Type>Research Task</Type>
+		<Time>360</Time>
+		<XpAward>825</XpAward>
+		<GoldBased>true</GoldBased>
+		<ResCost>35000</ResCost>
+		<ObjPrereq>0</ObjPrereq>
+		<Cap1Prereq>7</Cap1Prereq>
+	</Task>
+	
+	<Task>
+		<ID>5.5</ID>
+		<Name>Magic Containers</Name>
+		<Description>The more you have the more you desire, isn't it? You need big storages to amass so many resources.</Description>
+		<Type>Research Task</Type>
+		<Time>1440</Time>
+		<XpAward>900</XpAward>
+		<GoldBased>true</GoldBased>
+		<ResCost>150000</ResCost>
+		<ObjPrereq>5+</ObjPrereq>
+		<Cap1Prereq>11</Cap1Prereq>
+	</Task>
+	
+	<Task>
+		<ID>5.6</ID>
+		<Name>Apprentices Housing</Name>
+		<Description>An academy is better with more students. More beds please!</Description>
+		<Type>Research Task</Type>
+		<Time>1440</Time>
+		<XpAward>960</XpAward>
+		<GoldBased>true</GoldBased>
+		<ResCost>200000</ResCost>
+		<ObjPrereq>5+</ObjPrereq>
+		<Cap1Prereq>12</Cap1Prereq>
+	</Task>
+	
+	<Task>
+		<ID>5.7</ID>
+		<Name>Expert Wizardry</Name>
+		<Description>So you're not an amateur anymore? Time to learn the secret of wizardry!</Description>
+		<Type>Research Task</Type>
+		<Time>2880</Time>
+		<XpAward>1020</XpAward>
+		<GoldBased>true</GoldBased>
+		<ResCost>300000</ResCost>
+		<ObjPrereq>5+</ObjPrereq>
+		<Cap1Prereq>13</Cap1Prereq>
+	</Task>
+	
+	<Task>
+		<ID>5.8</ID>
+		<Name>Secret Toolsets</Name>
+		<Description>Are you tired of the same toys? Why not discover some new way to create better ones?</Description>
+		<Type>Research Task</Type>
+		<Time>2880</Time>
+		<XpAward>1080</XpAward>
+		<GoldBased>true</GoldBased>
+		<ResCost>500000</ResCost>
+		<ObjPrereq>5+</ObjPrereq>
+		<Cap1Prereq>15</Cap1Prereq>
+	</Task>
+	
+	<Task>
+		<ID>5.9</ID>
+		<Name>Adept Rites</Name>
+		<Description>Explore far planes to summon powerful creatures and add them to your army.</Description>
+		<Type>Research Task</Type>
+		<Time>2880</Time>
+		<XpAward>1140</XpAward>
+		<GoldBased>true</GoldBased>
+		<ResCost>600000</ResCost>
+		<ObjPrereq>5+</ObjPrereq>
+		<Cap1Prereq>16</Cap1Prereq>
+	</Task>
+	
+	<Task>
+		<ID>5.10</ID>
+		<Name>Secret Toolsets</Name>
+		<Description>Activate invisible units to play hide and seek. Mages like games like that.</Description>
+		<Type>Research Task</Type>
+		<Time>2880</Time>
+		<XpAward>1200</XpAward>
+		<GoldBased>true</GoldBased>
+		<ResCost>750000</ResCost>
+		<ObjPrereq>5+</ObjPrereq>
+		<Cap1Prereq>17</Cap1Prereq>
+	</Task>
+	
+	<Task>
+		<ID>5.11</ID>
+		<Name>Ultimate Extraction</Name>
+		<Description>Let your building produce even more resources. Is there any stop to your desires?</Description>
+		<Type>Research Task</Type>
+		<Time>4320</Time>
+		<XpAward>1230</XpAward>
+		<GoldBased>true</GoldBased>
+		<ResCost>1000000</ResCost>
+		<ObjPrereq>5+</ObjPrereq>
+		<Cap1Prereq>19</Cap1Prereq>
+	</Task>
+	
+	<Task>
+		<ID>5.12</ID>
+		<Name>Planar Container</Name>
+		<Description>If you want to become incredibly rich you'll need something to store your faboulous treasures.</Description>
+		<Type>Research Task</Type>
+		<Time>4320</Time>
+		<XpAward>1260</XpAward>
+		<GoldBased>true</GoldBased>
+		<ResCost>1500000</ResCost>
+		<ObjPrereq>5++</ObjPrereq>
+		<Cap1Prereq>21</Cap1Prereq>
+	</Task>
+	
+	<Task>
+		<ID>5.13</ID>
+		<Name>Artifact Toolsets</Name>
+		<Description>Tools and plans to create masterworks. Enjoy.</Description>
+		<Type>Research Task</Type>
+		<Time>5760</Time>
+		<XpAward>1290</XpAward>
+		<GoldBased>true</GoldBased>
+		<ResCost>1750000</ResCost>
+		<ObjPrereq>5++</ObjPrereq>
+		<Cap1Prereq>22</Cap1Prereq>
+	</Task>
+	
+	<Task>
+		<ID>5.14</ID>
+		<Name>Master Rites</Name>
+		<Description>Reach even more distant planes to summon the most powerful creatures.</Description>
+		<Type>Research Task</Type>
+		<Time>5760</Time>
+		<XpAward>1350</XpAward>
+		<GoldBased>true</GoldBased>
+		<ResCost>2000000</ResCost>
+		<ObjPrereq>5++</ObjPrereq>
+		<Cap1Prereq>23</Cap1Prereq>
+	</Task>
+	
+	<Task>
+		<ID>5.15</ID>
+		<Name>Apprentices Stacking</Name>
+		<Description>More and more students. They're always welcome… there's so much to be done.</Description>
+		<Type>Research Task</Type>
+		<Time>5760</Time>
+		<XpAward>1380</XpAward>
+		<GoldBased>true</GoldBased>
+		<ResCost>2250000</ResCost>
+		<ObjPrereq>5++</ObjPrereq>
+		<Cap1Prereq>25</Cap1Prereq>
+	</Task>
+	
+	<Task>
+		<ID>5.16</ID>
+		<Name>Master Wizardry</Name>
+		<Description>Here we reach the ultimate lessons of wizardry. Only the most renown academy reach this point of knowledge.</Description>
+		<Type>Research Task</Type>
+		<Time>11520</Time>
+		<XpAward>1950</XpAward>
+		<GoldBased>true</GoldBased>
+		<ResCost>8000000</ResCost>
+		<ObjPrereq>5++</ObjPrereq>
+		<Cap1Prereq>40</Cap1Prereq>
+	</Task>
+	
+</Tasks>
+

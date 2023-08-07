@@ -1,0 +1,36 @@
+First Set, no margins
+
+32 x 32 tiles 
+256 x 181 tile size
+
+position x-256 y -2805
+origin -350 -2840	starting point for placing all nodes
+			center of cell 0	
+
+--------------------------
+
+Second set, margins
+
+
+34 x 34 tiles 
+256 x 181 tile size  halfStep 128 x 90.5
+
+position x-256 y -2986
+origin -350 -3021	starting point for placing all nodes
+			center of cell 0
+
+
+--------------------------
+
+Third set, margins on sand
+
+
+36 x 36 tiles 
+256 x 181 tile size  halfStep 128 x 90.5
+
+position x-256 y -3170
+origin -346 -3207	starting point for placing all nodes
+			center of cell 0
+
+
+tilemap position -8960  -6335

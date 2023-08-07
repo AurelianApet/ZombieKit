@@ -1,0 +1,17 @@
+
+line count 2015 03 09 - 10926
+scripts 57
+
+------------------------------
+
+line count 2015 01 11 - 9384
+
+scripts 52
+noupdate 31
+noupdate procentage 59.6%
+
+single "if" update 12
+
+82.7% no update or single line update
+
+

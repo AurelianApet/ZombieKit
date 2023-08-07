@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+	<!-- TODO: replace this Asset with your own XML asset data. -->
+<Competitions>	
+	
+	<Competition>		
+		<Name>Ghosts No More!</Name>		
+		<Description>Eradicate the haunted pumpkins near your shool to expand your academy. Or just for fun.</Description>
+		<Time>60</Time>
+		<ObjPrereq>0</ObjPrereq>
+		
+		<GoldSpent>4500</GoldSpent>
+		<ManaSpent>0</ManaSpent>
+		<CrystalSpent>0</CrystalSpent>
+		
+		<ObjSpent>2.1</ObjSpent>
+		<ObjAmount>1</ObjAmount>
+		<Obj2Spent>0</Obj2Spent>
+		<Obj2Amount>0</Obj2Amount>
+		<Obj3Spent>0</Obj3Spent>
+		<Obj3Amount>0</Obj3Amount>
+		
+		<XPAward>5000</XPAward>
+		<GoldAward>10000</GoldAward>
+		<ManaAward>3000</ManaAward>
+		
+		<SuccessChance>0.3</SuccessChance>		
+	</Competition>	
+	
+	<Competition>		
+		<Name>Chicken Charge Assault!</Name>		
+		<Description>Accept the challenge of an enemy school and send your chicken to assault.</Description>
+		<Time>1440</Time>
+		<ObjPrereq>13</ObjPrereq>
+		
+		<GoldSpent>1000</GoldSpent>
+		<ManaSpent>0</ManaSpent>
+		<CrystalSpent>0</CrystalSpent>
+		
+		<ObjSpent>2.1</ObjSpent>
+		<ObjAmount>0</ObjAmount>
+		<Obj2Spent>0</Obj2Spent>
+		<Obj2Amount>0</Obj2Amount>
+		<Obj3Spent>0</Obj3Spent>
+		<Obj3Amount>0</Obj3Amount>
+		
+		<XPAward>2500</XPAward>
+		<GoldAward></GoldAward>
+		<ManaAward>3000</ManaAward>
+		
+		<SuccessChance>0.5</SuccessChance>		
+	</Competition>	
+	
+	<Competition>		
+		<Name>Porcupiner on Duty!</Name>		
+		<Description>Send a group of porcupiners to challenge a random competitor academy.</Description>
+		<Time>1440</Time>
+		<ObjPrereq>13</ObjPrereq>
+		
+		<GoldSpent></GoldSpent>
+		<ManaSpent>1000</ManaSpent>
+		<CrystalSpent>0</CrystalSpent>
+		
+		<ObjSpent>3.1</ObjSpent>
+		<ObjAmount>10</ObjAmount>
+		<Obj2Spent>0</Obj2Spent>
+		<Obj2Amount>0</Obj2Amount>
+		<Obj3Spent>0</Obj3Spent>
+		<Obj3Amount>0</Obj3Amount>
+		
+		<XPAward>2500</XPAward>
+		<GoldAward>3000</GoldAward>
+		<ManaAward>0</ManaAward>
+		
+		<SuccessChance>0.5</SuccessChance>		
+	</Competition>	
+	
+	<Competition>		
+		<Name>Reach the Treasure Plane</Name>		
+		<Description>Open a random planar gate to rich planets, hoping to summon here fabulous treasures.</Description>
+		<Time>3</Time>
+		<ObjPrereq>3</ObjPrereq>
+		
+		<GoldSpent></GoldSpent>
+		<ManaSpent></ManaSpent>
+		<CrystalSpent>1</CrystalSpent>
+		
+		<ObjSpent></ObjSpent>
+		<ObjAmount></ObjAmount>
+		<Obj2Spent></Obj2Spent>
+		<Obj2Amount></Obj2Amount>
+		<Obj3Spent></Obj3Spent>
+		<Obj3Amount></Obj3Amount>
+		
+		<XPAward>50000</XPAward>
+		<GoldAward>50000</GoldAward>
+		<ManaAward>30000</ManaAward>
+		
+		<SuccessChance>1</SuccessChance>		
+	</Competition>	
+	
+
+	
+</Competitions>
+
+<!-- 
+<Competition>		
+		<Name></Name>		
+		<Description></Description>
+		<Time></Time>
+		<ObjPrereq></ObjPrereq>
+		
+		<GoldSpent></GoldSpent>
+		<ManaSpent></ManaSpent>
+		<CrystalSpent></CrystalSpent>
+		
+		<ObjSpent></ObjSpent>
+		<ObjAmount></ObjAmount>
+		<Obj2Spent></Obj2Spent>
+		<Obj2Amount></Obj2Amount>
+		<Obj3Spent></Obj3Spent>
+		<Obj3Amount></Obj3Amount>
+		
+		<XPAward></XPAward>
+		<GoldAward></GoldAward>
+		<ManaAward></ManaAward>
+		
+		<SuccessChance></SuccessChance>		
+	</Competition>	
+
+-->
+

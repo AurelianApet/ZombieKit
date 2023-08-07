@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+	<!-- TODO: replace this Asset with your own XML asset data. -->
+<Items>	
+
+	<Item>
+		<Name>Dobbit</Name>		
+		<Price>1</Price>
+		<PerQuantity>1</PerQuantity>			
+	</Item>	
+	
+	<Item>
+		<Name>Crystals</Name>		
+		<Price>0.5</Price>
+		<PerQuantity>10</PerQuantity>			
+	</Item>	
+			
+	<Item>
+		<Name>Gold</Name>		
+		<Price>0.7</Price>
+		<PerQuantity>1000</PerQuantity>			
+	</Item>		
+			
+	<Item>
+		<Name>Mana</Name>		
+		<Price>0.6</Price>
+		<PerQuantity>500</PerQuantity>			
+	</Item>			
+					
+</Items>
+
+

@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8" ?>
+	<!-- TODO: replace this Asset with your own XML asset data. -->
+<Buildings>	
+	
+	<Building>
+		<ID>1</ID>
+		<Name>Haunted Pumpkin</Name>		
+		<Description>This is the home of an evil witch that can cast spells to bring the dead back in to the world of the living.</Description>
+		<Type>Generation</Type>
+		
+		<BuilderPop>0</BuilderPop><!-- the number of buildings that could be built or upgraded at the same time-->
+		<PopBonus>10</PopBonus><!--the number to be added to the max population-->
+		<ProdPerSec>0</ProdPerSec><!--the amount of the resource generated per second-->
+		<StoreCap>0</StoreCap><!--the total amount of resource storage added by that building-->
+		<MaxCap>1</MaxCap><!--max number of buildings allowed-->
+		
+		<Time>15</Time><!--the time (in minutes) needed to create the building-->
+		<XpAward>650</XpAward><!--experience awarded for the completion of an object-->
+		<GoldBased>true</GoldBased><!--which resource is needed to complete this kind of building-->
+		<ResCost>10000</ResCost><!--amount of resource necessary to create the building-->
+		<StoreCategory>Buildings</StoreCategory><!--the category where the object is available on the store-->
+		
+		<ObjPrereq>0</ObjPrereq><!--the object that the player has to create before he can create this object-->		
+		<Cap1Prereq>0</Cap1Prereq><!--the level needed to create the x building type (x is a number from 1 to 5.)-->
+		<Cap2Prereq>0</Cap2Prereq>
+		<Cap3Prereq>0</Cap3Prereq>
+		<Cap4Prereq>0</Cap4Prereq>
+		<Cap5Prereq>0</Cap5Prereq>	
+	
+		
+		<Up2LevelReq>0</Up2LevelReq><!--the level required to upgrade a type of building (x is the level of the building)-->			
+		<Up2ObjReq>5.7</Up2ObjReq>	<!--the objects required to upgrade a type of building (x is the level of the building)-->	
+		<Up2Cost>150000</Up2Cost><!--the amount of resources to be spent to upgrade the building-->
+		<Up2Time>2880</Up2Time><!--the amount of time (in minutes) necessary to upgrade the building-->	
+		<Up2XpAward>1245</Up2XpAward><!--XP awarded for the upgrade of an object-->
+		<Lev2StoreCap>0</Lev2StoreCap><!--the store capacity of the upgraded building (its not cumulative with the previous levels)-->
+		<Lev2Prod>0</Lev2Prod><!--the amount of the resource generated per second of the upgraded building (its not cumulative with the previous levels)-->
+		<Lev2PopBonus>20</Lev2PopBonus><!--the number to be added to the max population granted by the upgraded building (its not cumulative with the previous levels)-->	
+		
+		<Up3LevReq>0</Up3LevReq>
+		<Up3ObjReq>5.16</Up3ObjReq>
+		<Up3Cost>2000000</Up3Cost>
+		<Up3Time>10080</Up3Time>		
+		<Up3XpAward>1850</Up3XpAward>
+		<Lev3StoreCap>0</Lev3StoreCap>
+		<Lev3Prod>0</Lev3Prod>
+		<Lev3PopBonus>30</Lev3PopBonus>
+	</Building>	
+	
+	<Building>
+		<ID>10</ID>
+		<Name>Blue House</Name>		
+		<Description>Just an ordinary blue house of a dead family.</Description>
+		<Type>Resource Extra Storage</Type>
+		
+		<BuilderPop>0</BuilderPop>
+		<PopBonus>0</PopBonus>
+		<ProdPerSec>0</ProdPerSec>
+		<StoreCap>7500</StoreCap>
+		<MaxCap>3</MaxCap>
+		
+		<Time>15</Time>
+		<XpAward>300</XpAward>
+		<GoldBased>true</GoldBased>
+		<ResCost>600</ResCost>
+		<StoreCategory>Buildings</StoreCategory>
+		
+		<ObjPrereq>0</ObjPrereq>		
+		<Cap1Prereq>3</Cap1Prereq>
+		<Cap2Prereq>14</Cap2Prereq>
+		<Cap3Prereq>24</Cap3Prereq>
+		<Cap4Prereq>0</Cap4Prereq>
+		<Cap5Prereq>0</Cap5Prereq>	
+	
+		
+		<Up2LevelReq>0</Up2LevelReq>			
+		<Up2ObjReq>5.5</Up2ObjReq>		
+		<Up2Cost>25000</Up2Cost>
+		<Up2Time>1440</Up2Time>	
+		<Up2XpAward>400</Up2XpAward>
+		<Lev2StoreCap>20000</Lev2StoreCap>
+		<Lev2Prod>0</Lev2Prod> 
+		<Lev2PopBonus>0</Lev2PopBonus>		
+		
+		<Up3LevReq>0</Up3LevReq>
+		<Up3ObjReq>5.12</Up3ObjReq>
+		<Up3Cost>200000</Up3Cost>
+		<Up3Time>600</Up3Time>		
+		<Up3XpAward>900</Up3XpAward>
+		<Lev3StoreCap>150000</Lev3StoreCap>
+		<Lev3Prod>0</Lev3Prod>
+		<Lev3PopBonus>0</Lev3PopBonus>
+	</Building>
+	
+	<Building>
+		<ID>13</ID>
+		<Name>Brown House</Name>		
+		<Description>Just an ordinary brown house of a dead family.</Description>
+		<Type>Competition</Type>
+		
+		<BuilderPop>0</BuilderPop>
+		<PopBonus>0</PopBonus>
+		<ProdPerSec>0</ProdPerSec>
+		<StoreCap>0</StoreCap>
+		<MaxCap>1</MaxCap>
+		
+		<Time>15</Time>
+		<XpAward>200</XpAward>
+		<GoldBased>true</GoldBased>
+		<ResCost>600</ResCost>
+		<StoreCategory>Buildings</StoreCategory>
+		
+		<ObjPrereq>0</ObjPrereq>		
+		<Cap1Prereq>3</Cap1Prereq>
+		<Cap2Prereq>0</Cap2Prereq>
+		<Cap3Prereq>0</Cap3Prereq>
+		<Cap4Prereq>0</Cap4Prereq>
+		<Cap5Prereq>0</Cap5Prereq>	
+	
+		
+		<Up2LevelReq>0</Up2LevelReq>			
+		<Up2ObjReq>0</Up2ObjReq>		
+		<Up2Cost>100000</Up2Cost>
+		<Up2Time>2880</Up2Time>	
+		<Up2XpAward>800</Up2XpAward>
+		<Lev2StoreCap>0</Lev2StoreCap>
+		<Lev2Prod>0</Lev2Prod> 
+		<Lev2PopBonus>0</Lev2PopBonus>		
+		
+		<Up3LevReq>0</Up3LevReq>
+		<Up3ObjReq>20</Up3ObjReq>
+		<Up3Cost>2500000</Up3Cost>
+		<Up3Time>5760</Up3Time>		
+		<Up3XpAward>1500</Up3XpAward>
+		<Lev3StoreCap>0</Lev3StoreCap>
+		<Lev3Prod>0</Lev3Prod>
+		<Lev3PopBonus>0</Lev3PopBonus>
+	</Building>
+	
+	<Building>
+		<ID>11</ID>
+		<Name>Big Institution</Name>		
+		<Description>A building where law and order once stood.</Description>
+		<Type>General</Type>
+		
+		<BuilderPop>0</BuilderPop>
+		<PopBonus>30</PopBonus>
+		<ProdPerSec>0</ProdPerSec>
+		<StoreCap>0</StoreCap>
+		<MaxCap>4</MaxCap>
+		
+		<Time>2</Time>
+		<XpAward>150</XpAward>
+		<GoldBased>true</GoldBased>
+		<ResCost>250</ResCost>
+		<StoreCategory>Buildings</StoreCategory>
+		
+		<ObjPrereq>5.2</ObjPrereq>		
+		<Cap1Prereq>0</Cap1Prereq>
+		<Cap2Prereq>10</Cap2Prereq>
+		<Cap3Prereq>20</Cap3Prereq>
+		<Cap4Prereq>30</Cap4Prereq>
+		<Cap5Prereq>0</Cap5Prereq>	
+	
+		
+		<Up2LevelReq>0</Up2LevelReq>			
+		<Up2ObjReq>5.6</Up2ObjReq>		
+		<Up2Cost>25000</Up2Cost>
+		<Up2Time>2160</Up2Time>	
+		<Up2XpAward>450</Up2XpAward>
+		<Lev2StoreCap>0</Lev2StoreCap>
+		<Lev2Prod>0</Lev2Prod> 
+		<Lev2PopBonus>45</Lev2PopBonus>		
+		
+		<Up3LevReq>0</Up3LevReq>
+		<Up3ObjReq>5.15</Up3ObjReq>
+		<Up3Cost>200000</Up3Cost>
+		<Up3Time>4320</Up3Time>		
+		<Up3XpAward>1000</Up3XpAward>
+		<Lev3StoreCap>150000</Lev3StoreCap>
+		<Lev3Prod>0</Lev3Prod>
+		<Lev3PopBonus>60</Lev3PopBonus>
+	</Building>
+	<Building>
+		<ID>7</ID>
+		<Name>Small Institution</Name>		
+		<Description>A small building where law and order once stood.</Description>
+		<Type>Resource Generation</Type>
+		
+		<BuilderPop>0</BuilderPop>
+		<PopBonus>0</PopBonus>
+		<ProdPerSec>0.2</ProdPerSec>
+		<StoreCap>1250</StoreCap>
+		<MaxCap>5</MaxCap>
+		
+		<Time>1</Time>
+		<XpAward>60</XpAward>
+		<GoldBased>false</GoldBased>
+		<ResCost>250</ResCost>
+		<StoreCategory>Buildings</StoreCategory>
+		
+		<ObjPrereq>0</ObjPrereq>		
+		<Cap1Prereq>0</Cap1Prereq>
+		<Cap2Prereq>5</Cap2Prereq>
+		<Cap3Prereq>9</Cap3Prereq>
+		<Cap4Prereq>12</Cap4Prereq>
+		<Cap5Prereq>17</Cap5Prereq>	
+	
+		
+		<Up2LevelReq>0</Up2LevelReq>			
+		<Up2ObjReq>5.4</Up2ObjReq>		
+		<Up2Cost>4500</Up2Cost>
+		<Up2Time>600</Up2Time>	
+		<Up2XpAward>250</Up2XpAward>
+		<Lev2StoreCap>4500</Lev2StoreCap>
+		<Lev2Prod>0.5</Lev2Prod> 
+		<Lev2PopBonus>0</Lev2PopBonus>		
+		
+		<Up3LevReq>0</Up3LevReq>
+		<Up3ObjReq>5.11</Up3ObjReq>
+		<Up3Cost>65000</Up3Cost>
+		<Up3Time>1440</Up3Time>		
+		<Up3XpAward>650</Up3XpAward>
+		<Lev3StoreCap>30000</Lev3StoreCap>
+		<Lev3Prod>1.5</Lev3Prod>
+		<Lev3PopBonus>0</Lev3PopBonus>
+	</Building>
+		
+	<Building>
+		<ID>8</ID>
+		<Name>Modern Building 1</Name>		
+		<Description>A modern day building...or whatever's left of it.</Description>
+		<Type>Resource Generation</Type>
+		
+		<BuilderPop>0</BuilderPop>
+		<PopBonus>0</PopBonus>
+		<ProdPerSec>0.2</ProdPerSec>
+		<StoreCap>1250</StoreCap>
+		<MaxCap>5</MaxCap>
+		
+		<Time>1</Time>
+		<XpAward>60</XpAward>
+		<GoldBased>true</GoldBased>
+		<ResCost>250</ResCost>
+		<StoreCategory>Buildings</StoreCategory>
+		
+		<ObjPrereq>0</ObjPrereq>		
+		<Cap1Prereq>0</Cap1Prereq>
+		<Cap2Prereq>5</Cap2Prereq>
+		<Cap3Prereq>9</Cap3Prereq>
+		<Cap4Prereq>12</Cap4Prereq>
+		<Cap5Prereq>17</Cap5Prereq>	
+	
+		
+		<Up2LevelReq>0</Up2LevelReq>			
+		<Up2ObjReq>5.4</Up2ObjReq>		
+		<Up2Cost>4500</Up2Cost>
+		<Up2Time>600</Up2Time>	
+		<Up2XpAward>250</Up2XpAward>
+		<Lev2StoreCap>4500</Lev2StoreCap>
+		<Lev2Prod>0.5</Lev2Prod> 
+		<Lev2PopBonus>0</Lev2PopBonus>		
+		
+		<Up3LevReq>0</Up3LevReq>
+		<Up3ObjReq>5.11</Up3ObjReq>
+		<Up3Cost>65000</Up3Cost>
+		<Up3Time>1440</Up3Time>		
+		<Up3XpAward>650</Up3XpAward>
+		<Lev3StoreCap>30000</Lev3StoreCap>
+		<Lev3Prod>1.5</Lev3Prod>
+		<Lev3PopBonus>0</Lev3PopBonus>
+	</Building>
+	<Building>
+		<ID>5</ID>
+		<Name>Modern Building 2</Name>		
+		<Description>A modern day building...or whatever's left of it.</Description>
+		<Type>Research</Type>
+		
+		<BuilderPop>0</BuilderPop>
+		<PopBonus>0</PopBonus>
+		<ProdPerSec>0</ProdPerSec>
+		<StoreCap>0</StoreCap>
+		<MaxCap>1</MaxCap>
+		
+		<Time>45</Time>
+		<XpAward>450</XpAward>
+		<GoldBased>true</GoldBased>
+		<ResCost>500</ResCost>
+		<StoreCategory>Buildings</StoreCategory>
+		
+		<ObjPrereq>0</ObjPrereq>		
+		<Cap1Prereq>4</Cap1Prereq>
+		<Cap2Prereq>0</Cap2Prereq>
+		<Cap3Prereq>0</Cap3Prereq>
+		<Cap4Prereq>0</Cap4Prereq>
+		<Cap5Prereq>0</Cap5Prereq>	
+	
+		
+		<Up2LevelReq>10</Up2LevelReq>			
+		<Up2ObjReq>0</Up2ObjReq>		
+		<Up2Cost>150000</Up2Cost>
+		<Up2Time>1440</Up2Time>	
+		<Up2XpAward>900</Up2XpAward>
+		<Lev2StoreCap>0</Lev2StoreCap>
+		<Lev2Prod>0</Lev2Prod> 
+		<Lev2PopBonus>0</Lev2PopBonus>		
+		
+		<Up3LevReq>20</Up3LevReq>
+		<Up3ObjReq>0</Up3ObjReq>
+		<Up3Cost>850000</Up3Cost>
+		<Up3Time>2880</Up3Time>		
+		<Up3XpAward>1500</Up3XpAward>
+		<Lev3StoreCap>0</Lev3StoreCap>
+		<Lev3Prod>0</Lev3Prod>
+		<Lev3PopBonus>0</Lev3PopBonus>
+	</Building>
+	
+	
+	<Building>
+		<ID>3</ID>
+		<Name>Modern Tower</Name>		
+		<Description>It once stood as an expensive 5 star plaza but now left in ruins after the zombies took over.</Description>
+		<Type>Generation</Type>
+		
+		<BuilderPop>0</BuilderPop>
+		<PopBonus>0</PopBonus>
+		<ProdPerSec>0</ProdPerSec>
+		<StoreCap>0</StoreCap>
+		<MaxCap>3</MaxCap>
+		
+		<Time>1</Time>
+		<XpAward>45</XpAward>
+		<GoldBased>false</GoldBased>
+		<ResCost>500</ResCost>
+		<StoreCategory>Buildings</StoreCategory>
+		
+		<ObjPrereq>0</ObjPrereq>		
+		<Cap1Prereq>2</Cap1Prereq>
+		<Cap2Prereq>6</Cap2Prereq>
+		<Cap3Prereq>16</Cap3Prereq>
+		<Cap4Prereq>0</Cap4Prereq>
+		<Cap5Prereq>0</Cap5Prereq>	
+	
+		
+		<Up2LevelReq>8</Up2LevelReq>			
+		<Up2ObjReq>5.3</Up2ObjReq>		
+		<Up2Cost>12500</Up2Cost>
+		<Up2Time>600</Up2Time>	
+		<Up2XpAward>600</Up2XpAward>
+		<Lev2StoreCap>0</Lev2StoreCap>
+		<Lev2Prod>0</Lev2Prod> 
+		<Lev2PopBonus>0</Lev2PopBonus>		
+		
+		<Up3LevReq>18</Up3LevReq>
+		<Up3ObjReq>5.14</Up3ObjReq>
+		<Up3Cost>350000</Up3Cost>
+		<Up3Time>2880</Up3Time>		
+		<Up3XpAward>1200</Up3XpAward>
+		<Lev3StoreCap>0</Lev3StoreCap>
+		<Lev3Prod>0</Lev3Prod>
+		<Lev3PopBonus>0</Lev3PopBonus>
+	</Building>
+	
+		
+	
+	<Building>
+		<ID>12</ID>
+		<Name>Convinient Store</Name>		
+		<Description>It once sold food but went out of business ever since the general population started to seem only interested in brains and human flesh...</Description>
+		<Type>General</Type>
+		
+		<BuilderPop>1</BuilderPop>
+		<PopBonus>0</PopBonus>
+		<ProdPerSec>0</ProdPerSec>
+		<StoreCap>0</StoreCap>
+		<MaxCap>1</MaxCap>
+		
+		<Time>1</Time>
+		<XpAward>150</XpAward>
+		<GoldBased>true</GoldBased>
+		<ResCost>1000</ResCost>
+		<StoreCategory>Buildings</StoreCategory>
+		
+		<ObjPrereq>5.2</ObjPrereq>		
+		<Cap1Prereq>0</Cap1Prereq>
+		<Cap2Prereq>100</Cap2Prereq>
+		<Cap3Prereq>1000</Cap3Prereq>
+		<Cap4Prereq>10000</Cap4Prereq>
+		<Cap5Prereq>0</Cap5Prereq>	
+	
+		
+		<Up2LevelReq>0</Up2LevelReq>			
+		<Up2ObjReq>0</Up2ObjReq>		
+		<Up2Cost>0</Up2Cost>
+		<Up2Time>0</Up2Time>	
+		<Up2XpAward>0</Up2XpAward>
+		<Lev2StoreCap>0</Lev2StoreCap>
+		<Lev2Prod>0</Lev2Prod> 
+		<Lev2PopBonus>0</Lev2PopBonus>		
+		
+		<Up3LevReq>0</Up3LevReq>
+		<Up3ObjReq>0</Up3ObjReq>
+		<Up3Cost>0</Up3Cost>
+		<Up3Time>0</Up3Time>		
+		<Up3XpAward>0</Up3XpAward>
+		<Lev3StoreCap>0</Lev3StoreCap>
+		<Lev3Prod>0</Lev3Prod>
+		<Lev3PopBonus>0</Lev3PopBonus>
+	</Building>
+	
+	
+	
+
+	<Building>
+		<ID>9</ID>
+		<Name>Tower Block</Name>		
+		<Description>Once a great real estate property with beautiful apartments but now terrorized by mindless beings.</Description>
+		<Type>Resource Extra Storage</Type>
+		
+		<BuilderPop>0</BuilderPop>
+		<PopBonus>0</PopBonus>
+		<ProdPerSec>0</ProdPerSec>
+		<StoreCap>7500</StoreCap>
+		<MaxCap>3</MaxCap>
+		
+		<Time>15</Time>
+		<XpAward>300</XpAward>
+		<GoldBased>false</GoldBased>
+		<ResCost>600</ResCost>
+		<StoreCategory>Buildings</StoreCategory>
+		
+		<ObjPrereq>0</ObjPrereq>		
+		<Cap1Prereq>3</Cap1Prereq>
+		<Cap2Prereq>14</Cap2Prereq>
+		<Cap3Prereq>24</Cap3Prereq>
+		<Cap4Prereq>0</Cap4Prereq>
+		<Cap5Prereq>0</Cap5Prereq>	
+	
+		
+		<Up2LevelReq>0</Up2LevelReq>			
+		<Up2ObjReq>5.5</Up2ObjReq>		
+		<Up2Cost>25000</Up2Cost>
+		<Up2Time>1440</Up2Time>	
+		<Up2XpAward>400</Up2XpAward>
+		<Lev2StoreCap>30000</Lev2StoreCap>
+		<Lev2Prod>0</Lev2Prod> 
+		<Lev2PopBonus>0</Lev2PopBonus>		
+		
+		<Up3LevReq>0</Up3LevReq>
+		<Up3ObjReq>5.12</Up3ObjReq>
+		<Up3Cost>200000</Up3Cost>
+		<Up3Time>600</Up3Time>		
+		<Up3XpAward>900</Up3XpAward>
+		<Lev3StoreCap>150000</Lev3StoreCap>
+		<Lev3Prod>0</Lev3Prod>
+		<Lev3PopBonus>0</Lev3PopBonus>
+	</Building>
+	
+	<Building>
+		<ID>2</ID>
+		<Name>Red Water Tower</Name>		
+		<Description>Its contents now reflect its exterior color.</Description>
+		<Type>Generation</Type>
+		
+		<BuilderPop>0</BuilderPop>
+		<PopBonus>0</PopBonus>
+		<ProdPerSec>0</ProdPerSec>
+		<StoreCap>0</StoreCap>
+		<MaxCap>2</MaxCap>
+		
+		<Time>1</Time>
+		<XpAward>45</XpAward>
+		<GoldBased>true</GoldBased>
+		<ResCost>500</ResCost>
+		<StoreCategory>Buildings</StoreCategory>
+		
+		<ObjPrereq>0</ObjPrereq>	
+		<Cap1Prereq>2</Cap1Prereq>
+		<Cap2Prereq>15</Cap2Prereq>
+		<Cap3Prereq>0</Cap3Prereq>
+		<Cap4Prereq>0</Cap4Prereq>
+		<Cap5Prereq>0</Cap5Prereq>
+	
+		
+		<Up2LevelReq>8</Up2LevelReq>			
+		<Up2ObjReq>5.1</Up2ObjReq>		
+		<Up2Cost>12500</Up2Cost>
+		<Up2Time>600</Up2Time>		
+		<Up2XpAward>600</Up2XpAward>
+		<Lev2StoreCap>0</Lev2StoreCap>
+		<Lev2Prod>0</Lev2Prod> 
+		<Lev2PopBonus>20</Lev2PopBonus>		
+		
+		<Up3LevReq>18</Up3LevReq>
+		<Up3ObjReq>5.13</Up3ObjReq>
+		<Up3Cost>350000</Up3Cost>
+		<Up3Time>2880</Up3Time>	
+		<Up3XpAward>1200</Up3XpAward>
+		<Lev3StoreCap>0</Lev3StoreCap>
+		<Lev3Prod>0</Lev3Prod>
+		<Lev3PopBonus>0</Lev3PopBonus>
+	</Building>	
+
+	
+	<Building>
+		<ID>14</ID>
+		<Name>Green Water Tower</Name>		
+		<Description>It's been empty ever since the mass breakout of the undead.</Description>
+		<Type>Competition</Type>
+		
+		<BuilderPop>0</BuilderPop>
+		<PopBonus>0</PopBonus>
+		<ProdPerSec>0</ProdPerSec>
+		<StoreCap>0</StoreCap>
+		<MaxCap>1</MaxCap>
+		
+		<Time>180</Time>
+		<XpAward>200</XpAward>
+		<GoldBased>true</GoldBased>
+		<ResCost>500</ResCost>
+		<StoreCategory>Buildings</StoreCategory>
+		
+		<ObjPrereq>0</ObjPrereq>		
+		<Cap1Prereq>3</Cap1Prereq>
+		<Cap2Prereq>0</Cap2Prereq>
+		<Cap3Prereq>0</Cap3Prereq>
+		<Cap4Prereq>0</Cap4Prereq>
+		<Cap5Prereq>0</Cap5Prereq>	
+	
+		
+		<Up2LevelReq>0</Up2LevelReq>			
+		<Up2ObjReq>0</Up2ObjReq>		
+		<Up2Cost>100000</Up2Cost>
+		<Up2Time>2880</Up2Time>	
+		<Up2XpAward>800</Up2XpAward>
+		<Lev2StoreCap>0</Lev2StoreCap>
+		<Lev2Prod>0</Lev2Prod> 
+		<Lev2PopBonus>0</Lev2PopBonus>		
+		
+		<Up3LevReq>0</Up3LevReq>
+		<Up3ObjReq>20</Up3ObjReq>
+		<Up3Cost>2500000</Up3Cost>
+		<Up3Time>5760</Up3Time>		
+		<Up3XpAward>1500</Up3XpAward>
+		<Lev3StoreCap>0</Lev3StoreCap>
+		<Lev3Prod>0</Lev3Prod>
+		<Lev3PopBonus>0</Lev3PopBonus>
+	</Building>
+
+	
+</Buildings>
+
+

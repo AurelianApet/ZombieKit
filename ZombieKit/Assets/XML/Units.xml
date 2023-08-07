@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+     
+    <Units>
+	<Unit>	
+		<ID>1.1</ID>
+		<Name>Cop</Name>		
+		<Description>A cop who eats law for breakfast.</Description>
+		<Type>Generated Creature</Type>		
+		<PopUnitWeight>1</PopUnitWeight> <!--how many population slot the unit occupies-->
+		<Time>2</Time><!--the time (in minutes) needed to create the building-->
+		<XpAward>21</XpAward><!--experience awarded for the completion of an object-->
+		<GoldBased>false</GoldBased><!--which resource is needed to complete this kind of building-->
+		<ResCost>250</ResCost><!--amount of resource necessary to create the building-->
+		<StoreCategory>Creatures</StoreCategory><!--the category where the object is available on the store-->
+		<ObjPrereq>0</ObjPrereq><!--the object that the player has to create before he can create this object-->
+	</Unit>
+	
+	<Unit>
+		<ID>2.1</ID>
+		<Name>Zombie</Name>		
+		<Description>A living dead being ready to attack.</Description>
+		<Type>Generated Creature</Type>		
+		<PopUnitWeight>1</PopUnitWeight>
+		<Time>2</Time>
+		<XpAward>21</XpAward>
+		<GoldBased>true</GoldBased>
+		<ResCost>250</ResCost>
+		<StoreCategory>Creatures</StoreCategory>
+		<ObjPrereq>0</ObjPrereq>
+	</Unit>
+	
+	<Unit>
+		<ID>2.2</ID>
+		<Name>Clockwork Tree</Name>		
+		<Description>The miracle of technology to create someone to talk to when a wizard feels chatty. Question: does it have a soul?</Description>
+		<Type>Generated Creature</Type>		
+		<PopUnitWeight>1</PopUnitWeight>
+		<Time>240</Time>
+		<XpAward>60</XpAward>
+		<GoldBased>true</GoldBased>
+		<ResCost>5000</ResCost>
+		<StoreCategory>Creatures</StoreCategory>
+		<ObjPrereq>5.1</ObjPrereq>
+	</Unit>
+	
+	<Unit>
+		<ID>2.3</ID>
+		<Name>Sentient Mine</Name>		
+		<Description>Something to light up your enemies.</Description>
+		<Type>Generated Creature</Type>		
+		<PopUnitWeight>2</PopUnitWeight>
+		<Time>180</Time>
+		<XpAward>36</XpAward>
+		<GoldBased>true</GoldBased>
+		<ResCost>1250</ResCost>
+		<StoreCategory>Creatures</StoreCategory>
+		<ObjPrereq>2+</ObjPrereq>
+	</Unit>
+	
+	<Unit>
+		<ID>2.4</ID>
+		<Name>Gargoyle</Name>		
+		<Description>A flying statue is a violation of the laws of physics, but mages love them.</Description>
+		<Type>Generated Creature</Type>		
+		<PopUnitWeight>2</PopUnitWeight>
+		<Time>2880</Time>
+		<XpAward>360</XpAward>
+		<GoldBased>true</GoldBased>
+		<ResCost>75000</ResCost>
+		<StoreCategory>Creatures</StoreCategory>
+		<ObjPrereq>5.8</ObjPrereq>
+	</Unit>
+	
+	<Unit>
+		<ID>2.5</ID>
+		<Name>Stonefire Colossus</Name>		
+		<Description>A huge machine to defend your academy.</Description>
+		<Type>Generated Creature</Type>		
+		<PopUnitWeight>3</PopUnitWeight>
+		<Time>4320</Time>
+		<XpAward>750</XpAward>
+		<GoldBased>true</GoldBased>
+		<ResCost>150000</ResCost>
+		<StoreCategory>Creatures</StoreCategory>
+		<ObjPrereq>2++</ObjPrereq>
+	</Unit>
+	
+	<Unit>
+		<ID>2.6</ID>
+		<Name>Monster of the Pit</Name>		
+		<Description>An exciting surprise to entertain your enemy.</Description>
+		<Type>Generated Creature</Type>		
+		<PopUnitWeight>4</PopUnitWeight>
+		<Time>7200</Time>
+		<XpAward>900</XpAward>
+		<GoldBased>true</GoldBased>
+		<ResCost>750000</ResCost>
+		<StoreCategory>Creatures</StoreCategory>
+		<ObjPrereq>5.13</ObjPrereq>
+	</Unit>
+	
+	<Unit>
+		<ID>3.1</ID>
+		<Name>Porcupiner</Name>		
+		<Description>A porcupine from another plane, ready for battle. Cute and without mercy.</Description>
+		<Type>Generated Artifact</Type>		
+		<PopUnitWeight>1</PopUnitWeight>
+		<Time>1</Time>
+		<XpAward>21</XpAward>
+		<GoldBased>false</GoldBased>
+		<ResCost>50</ResCost>
+		<StoreCategory>Artifacts</StoreCategory>
+		<ObjPrereq>0</ObjPrereq>
+	</Unit>
+	
+	<Unit>
+		<ID>3.2</ID>
+		<Name>Blue Jelly</Name>		
+		<Description>Ow… that's slimy.</Description>
+		<Type>Generated Artifact</Type>		
+		<PopUnitWeight>1</PopUnitWeight>
+		<Time>2</Time>
+		<XpAward>60</XpAward>
+		<GoldBased>false</GoldBased>
+		<ResCost>100</ResCost>
+		<StoreCategory>Artifacts</StoreCategory>
+		<ObjPrereq>5.3</ObjPrereq>
+	</Unit>
+	
+	<Unit>
+		<ID>3.3</ID>
+		<Name>Wisp</Name>		
+		<Description>Every wizard loves shiny things.</Description>
+		<Type>Generated Artifact</Type>		
+		<PopUnitWeight>2</PopUnitWeight>
+		<Time>10</Time>
+		<XpAward>150</XpAward>
+		<GoldBased>false</GoldBased>
+		<ResCost>1000</ResCost>
+		<StoreCategory>Artifacts</StoreCategory>
+		<ObjPrereq>3+</ObjPrereq>
+	</Unit>	
+	
+	<Unit>
+		<ID>3.4</ID>
+		<Name>Phoenix Warrior</Name>		
+		<Description>They never die… or not?</Description>
+		<Type>Generated Artifact</Type>		
+		<PopUnitWeight>2</PopUnitWeight>
+		<Time>20</Time>
+		<XpAward>360</XpAward>
+		<GoldBased>false</GoldBased>
+		<ResCost>1500</ResCost>
+		<StoreCategory>Artifacts</StoreCategory>
+		<ObjPrereq>5.9</ObjPrereq>
+	</Unit>
+	
+	<Unit>
+		<ID>3.5</ID>
+		<Name>Cloud Dragon</Name>		
+		<Description>A beautiful dragon.</Description>
+		<Type>Generated Artifact</Type>		
+		<PopUnitWeight>3</PopUnitWeight>
+		<Time>60</Time>
+		<XpAward>750</XpAward>
+		<GoldBased>false</GoldBased>
+		<ResCost>30000</ResCost>
+		<StoreCategory>Artifacts</StoreCategory>
+		<ObjPrereq>3++</ObjPrereq>
+	</Unit>	
+
+</Units>
+

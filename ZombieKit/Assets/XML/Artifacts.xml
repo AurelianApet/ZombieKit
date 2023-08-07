@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+	<!-- TODO: replace this Asset with your own XML asset data. -->
+<Artifacts>
+		
+	<Artifact>
+		<ID>3.1</ID>
+		<Name>Porcupiner</Name>		
+		<Description>A porcupine from another plane, ready for battle. Cute and without mercy.</Description>
+		<Type>Generated Artifact</Type>		
+		<PopUnitWeight>1</PopUnitWeight>
+		<Time>1</Time>
+		<XpAward>21</XpAward>
+		<GoldBased>false</GoldBased>
+		<ResCost>50</ResCost>
+		<StoreCategory>Artifacts</StoreCategory>
+		<ObjPrereq>0</ObjPrereq>
+	</Artifact>
+	
+	<Artifact>
+		<ID>3.2</ID>
+		<Name>Blue Jelly</Name>		
+		<Description>Ow… that's slimy.</Description>
+		<Type>Generated Artifact</Type>		
+		<PopUnitWeight>1</PopUnitWeight>
+		<Time>2</Time>
+		<XpAward>60</XpAward>
+		<GoldBased>false</GoldBased>
+		<ResCost>100</ResCost>
+		<StoreCategory>Artifacts</StoreCategory>
+		<ObjPrereq>5.3</ObjPrereq>
+	</Artifact>
+	
+	<Artifact>
+		<ID>3.3</ID>
+		<Name>Wisp</Name>		
+		<Description>Every wizard loves shiny things.</Description>
+		<Type>Generated Artifact</Type>		
+		<PopUnitWeight>2</PopUnitWeight>
+		<Time>10</Time>
+		<XpAward>150</XpAward>
+		<GoldBased>false</GoldBased>
+		<ResCost>1000</ResCost>
+		<StoreCategory>Artifacts</StoreCategory>
+		<ObjPrereq>3+</ObjPrereq>
+	</Artifact>	
+	
+	<Artifact>
+		<ID>3.4</ID>
+		<Name>Phoenix Warrior</Name>		
+		<Description>They never die… or not?</Description>
+		<Type>Generated Artifact</Type>		
+		<PopUnitWeight>2</PopUnitWeight>
+		<Time>20</Time>
+		<XpAward>360</XpAward>
+		<GoldBased>false</GoldBased>
+		<ResCost>1500</ResCost>
+		<StoreCategory>Artifacts</StoreCategory>
+		<ObjPrereq>5.9</ObjPrereq>
+	</Artifact>
+	
+	<Artifact>
+		<ID>3.5</ID>
+		<Name>Cloud Dragon</Name>		
+		<Description>A beautiful dragon.</Description>
+		<Type>Generated Artifact</Type>		
+		<PopUnitWeight>3</PopUnitWeight>
+		<Time>60</Time>
+		<XpAward>750</XpAward>
+		<GoldBased>false</GoldBased>
+		<ResCost>30000</ResCost>
+		<StoreCategory>Artifacts</StoreCategory>
+		<ObjPrereq>3++</ObjPrereq>
+	</Artifact>	
+	
+	<Artifact>
+		<ID>3.6</ID>
+		<Name>Juggernaut Turtle</Name>		
+		<Description>Nothing can stop them... usually.</Description>
+		<Type>Generated Artifact</Type>		
+		<PopUnitWeight>3</PopUnitWeight>
+		<Time>120</Time>
+		<XpAward>900</XpAward>
+		<GoldBased>false</GoldBased>
+		<ResCost>50000</ResCost>
+		<StoreCategory>Artifacts</StoreCategory>
+		<ObjPrereq>5.14</ObjPrereq>
+	</Artifact>	
+</Artifacts>
+
